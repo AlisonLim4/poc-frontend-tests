@@ -1,0 +1,23 @@
+.main-container {
+  display: flex;
+  gap: 30px;
+}
+.form-container {
+  width: 500px;
+  padding: 2rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #eee;
+}
+
+.form-container form fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 1rem;
+  border-color: #4ec01e;
+}
+
+.form-container form fieldset legend {
+  color: #ce1515;
+}
