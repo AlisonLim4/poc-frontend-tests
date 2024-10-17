@@ -1,17 +1,18 @@
 .button {
   height: 40px;
+  width: 100%;
   border-radius: 6px;
   border: none;
   cursor: pointer;
   border: 1px solid rgb(2, 124, 173);
 
-  background-color: rgb(2, 124, 173);
   color: #fff;
   font-weight: bold;
   transition: all ease 0.2s;
+  background: rgb(2, 124, 173);
 }
 
 .button:hover {
-  background-color: rgb(2, 173, 73);
+  background: rgb(2, 173, 73);
   border-color: rgb(2, 173, 73);
 }
